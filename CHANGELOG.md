@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `ewoks install`: add `--package-manager-name` and `--package-manager-command` arguments.
+- `ewoks convert`: add `--package-manager-name` and `--package-manager-command` arguments.
+
+### Removed
+
+- `ewoks install`: remove `-p/--python` argument.
+
 ## [5.0.0] - 2026-04-27
 
 - Upgrade `ewoksdask` to 3.*
